@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: best_sellling_film
+    columns:
+      - name: film_id
+      - name: film_title
+      - name: sales 
+
+  - name: monthly_total_revenue
+    columns:
+      - name: payment_month
+      - name: total_revenue
+
+  - name: most_playing_actor
+    columns:
+      - name: actor_name
+      - name: num_films_played
